@@ -1,4 +1,4 @@
-'use strict';
+// Declaring variables
 const backgroundColor = document.querySelector('body');
 const startMessage = document.querySelector('.message');
 const selectNumber = document.querySelector('.number');
@@ -66,7 +66,7 @@ const buttonAgain = () => {
 
 
 
-
+//Event Listeners
 
 againButton.addEventListener('click', buttonAgain);
 checkButton.addEventListener('click', buttonCheck);
